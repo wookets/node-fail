@@ -1,6 +1,6 @@
 
 
-exports.BadRequest = function(name, message) {
+exports.BadRequest = function(message, data) {
   var err = new Error(message);
   err.name = 'BadRequest';
   err.status = 400;
@@ -8,7 +8,7 @@ exports.BadRequest = function(name, message) {
   return err;
 };
 
-exports.NotAuthorized = function(name, message) {
+exports.NotAuthorized = function(message, data) {
   var err = new Error(message);
   err.name = 'NotAuthorized';
   err.status = 400;

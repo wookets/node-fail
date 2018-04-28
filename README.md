@@ -7,6 +7,8 @@ you can treat it differently than an unknown error that cropped up.
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/wookets/node-fail.svg)](https://greenkeeper.io/)
+
 In package.json, under dependencies, you can do...
 
 ```"fail": "https://github.com/wookets/node-fail/0.1.0"```
